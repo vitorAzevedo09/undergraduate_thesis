@@ -1,0 +1,51 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     Ideacao_Suicida
+Instances:    699
+Attributes:   1804
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 19844
+	Merit of best subset found:    0.15 
+
+Attribute Subset Evaluator (supervised, Class (nominal): 1804 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 2,7,21,41,120,143,284,287,288,371,441,461,470,489,695,753,1000,1222,1320,1626,1655,1773 : 22
+                     ta
+                     vai
+                     q
+                     fot
+                     kk
+                     com
+                     dorm
+                     vontad
+                     sonh
+                     tip
+                     sei
+                     suicidi
+                     era
+                     so
+                     got
+                     continu
+                     pul
+                     bost
+                     suic
+                     cart
+                     cris
+                     sinc
+
+
